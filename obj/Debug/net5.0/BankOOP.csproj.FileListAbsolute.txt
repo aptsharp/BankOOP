@@ -1,0 +1,16 @@
+C:\_C0de\_DIO\Criando uma aplicação de transferências bancárias com .NET\_app\BankOOP\bin\Debug\net5.0\BankOOP.exe
+C:\_C0de\_DIO\Criando uma aplicação de transferências bancárias com .NET\_app\BankOOP\bin\Debug\net5.0\BankOOP.deps.json
+C:\_C0de\_DIO\Criando uma aplicação de transferências bancárias com .NET\_app\BankOOP\bin\Debug\net5.0\BankOOP.runtimeconfig.json
+C:\_C0de\_DIO\Criando uma aplicação de transferências bancárias com .NET\_app\BankOOP\bin\Debug\net5.0\BankOOP.runtimeconfig.dev.json
+C:\_C0de\_DIO\Criando uma aplicação de transferências bancárias com .NET\_app\BankOOP\bin\Debug\net5.0\BankOOP.dll
+C:\_C0de\_DIO\Criando uma aplicação de transferências bancárias com .NET\_app\BankOOP\bin\Debug\net5.0\ref\BankOOP.dll
+C:\_C0de\_DIO\Criando uma aplicação de transferências bancárias com .NET\_app\BankOOP\bin\Debug\net5.0\BankOOP.pdb
+C:\_C0de\_DIO\Criando uma aplicação de transferências bancárias com .NET\_app\BankOOP\obj\Debug\net5.0\BankOOP.csprojAssemblyReference.cache
+C:\_C0de\_DIO\Criando uma aplicação de transferências bancárias com .NET\_app\BankOOP\obj\Debug\net5.0\BankOOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\_C0de\_DIO\Criando uma aplicação de transferências bancárias com .NET\_app\BankOOP\obj\Debug\net5.0\BankOOP.AssemblyInfoInputs.cache
+C:\_C0de\_DIO\Criando uma aplicação de transferências bancárias com .NET\_app\BankOOP\obj\Debug\net5.0\BankOOP.AssemblyInfo.cs
+C:\_C0de\_DIO\Criando uma aplicação de transferências bancárias com .NET\_app\BankOOP\obj\Debug\net5.0\BankOOP.csproj.CoreCompileInputs.cache
+C:\_C0de\_DIO\Criando uma aplicação de transferências bancárias com .NET\_app\BankOOP\obj\Debug\net5.0\BankOOP.dll
+C:\_C0de\_DIO\Criando uma aplicação de transferências bancárias com .NET\_app\BankOOP\obj\Debug\net5.0\ref\BankOOP.dll
+C:\_C0de\_DIO\Criando uma aplicação de transferências bancárias com .NET\_app\BankOOP\obj\Debug\net5.0\BankOOP.pdb
+C:\_C0de\_DIO\Criando uma aplicação de transferências bancárias com .NET\_app\BankOOP\obj\Debug\net5.0\BankOOP.genruntimeconfig.cache
