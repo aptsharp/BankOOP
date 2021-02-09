@@ -1,20 +1,14 @@
-
+![banco](https://user-images.githubusercontent.com/6175226/107309350-07ce4100-6a69-11eb-8376-eb414997c44e.gif)
 
 ## Descrição:
 
-- CRUD de produtos em um projeto em C# com Entity Framework utilizando a metodologia code first para fazer uma migration usando Microsoft SQL Server e teste realizados usando xUnit
+- Exercendo o pensamento de POO com o contexto de como modelar o seu domínio e como utilizar enums.
 
 ## Techs:
 
-- **C#** - Como linguagem base
-- **Entity Framework** - ORM para persistir os dados no SQL Server
-- **SQL Server** - Banco de dados da microsoft
-- **xUnit** - Usado para realização dos testes
+- **C#** - Linguagem de programação
 
 ## Arquitetura:
 
 - C# 
-- xUnit
-- SQL Server
-- Entity Framework
-- Visual Studio 2019
+- Visual Studio Code
