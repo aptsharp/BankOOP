@@ -1,4 +1,5 @@
-﻿using System;
+﻿using System.Reflection.Metadata.Ecma335;
+using System;
 using System.Collections.Generic;
 using BankOOP.Classes;
 
@@ -24,13 +25,13 @@ namespace BankOOP
                         InserirConta();
                         break;
                     case "3":
-                        //Transferir();
+                        Transferir();
                         break;
                     case "4":
-                        // Sacar();
+                        Sacar();
                         break;
                     case "5":
-                        // Depositar();
+                        Depositar();
                         break;
                     case "C":
                         Console.Clear();
@@ -45,6 +46,44 @@ namespace BankOOP
 
             Console.WriteLine("obrigado por utilizar o nosso banco");
             Console.ReadLine();
+
+        }
+
+        private static void Transferir()
+        {
+            Console.WriteLine(" conta de origem: ");
+            int indiceContaOrigem = int.Parse(Console.ReadLine());
+
+            Console.WriteLine(" conta de destino: ");
+            int indiceContaDestino = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("valor da transferencia: ");
+            double valorTransferencia = double.Parse(Console.ReadLine());
+
+            listContas[indiceContaOrigem].Transferir(valorTransferencia, listContas(indiceContaDestino));
+
+        }
+
+        private static void Depositar()
+        {
+            Console.WriteLine("numero da conta: ");
+            int indiceConta = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("valor para deposito: ");
+            double valorDeposito = double.Parse(Console.ReadLine());
+
+            listContas[indiceConta].Depositar(valorDeposito);
+        }
+
+        private static void Sacar()
+        {
+            Console.WriteLine("n conta:");
+            int indiceConta = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite o valor para saque: ");
+            double valorSaque = double.Parse(Console.ReadLine());
+
+            listContas[indiceConta].Sacar(valorSaque);
 
         }
 
