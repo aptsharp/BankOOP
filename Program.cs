@@ -60,7 +60,7 @@ namespace BankOOP
             Console.WriteLine("valor da transferencia: ");
             double valorTransferencia = double.Parse(Console.ReadLine());
 
-            listContas[indiceContaOrigem].Transferir(valorTransferencia, listContas(indiceContaDestino));
+            listContas[indiceContaDestino].Transferir(valorTransferencia, listContas[indiceContaDestino]);
 
         }
 
@@ -99,7 +99,7 @@ namespace BankOOP
             for (int i = 0; i < listContas.Count; i++)
             {
                 Conta conta = listContas[i];
-                Console.WriteLine("#{0} - ", i+1);
+                Console.WriteLine("#{0} - ", i);
                 Console.WriteLine(conta);
             }
 
