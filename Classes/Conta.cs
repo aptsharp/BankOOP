@@ -40,7 +40,8 @@ namespace BankOOP.Classes
 
         public void Transferir(double valorTransferencia, Conta contaDestino)
         {
-            if(this.Sacar(valorTransferencia)){
+            if (this.Sacar(valorTransferencia))
+            {
                 contaDestino.Depositar(valorTransferencia);
             }
         }
@@ -54,9 +55,6 @@ namespace BankOOP.Classes
             retorno += "Credito: " + this.Credito;
             return retorno;
         }
-
-
-
 
     }
 
